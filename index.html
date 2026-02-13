@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>राधे राधे सेवा परिवार</title>
+    <style>
+        :root { --primary-color: #d81b60; --secondary-color: #ffc107; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; background-color: #fdf2f5; color: #333; }
+        header { background: var(--primary-color); color: white; padding: 2rem; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        nav { background: #444; color: white; padding: 10px; text-align: center; position: sticky; top: 0; z-index: 1000; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { max-width: 900px; margin: 20px auto; padding: 20px; background: white; border-radius: 15px; box-shadow: 0 0 20px rgba(0,0,0,0.05); }
+        .welcome-box { background: #fff9c4; padding: 30px; border-radius: 15px; border-left: 8px solid var(--primary-color); margin-bottom: 30px; }
+        h1, h2 { color: var(--primary-color); }
+        .section { margin-bottom: 40px; padding: 15px; }
+        .committee-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .card { background: #fff; border: 1px solid #ddd; padding: 15px; border-radius: 10px; text-align: center; transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .scanner-section { text-align: center; background: #eee; padding: 20px; border-radius: 15px; }
+        .qr-code { width: 200px; height: 200px; background: #ccc; margin: 15px auto; display: flex; align-items: center; justify-content: center; border: 2px dashed #666; }
+        .footer { text-align: center; padding: 30px; background: #333; color: white; margin-top: 50px; }
+        .post-box { border-bottom: 1px solid #eee; padding: 10px 0; }
+        .notice-bar { background: #ffeb3b; padding: 10px; font-weight: bold; text-align: center; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>राधे राधे सेवा परिवार 🙏</h1>
+    <p>"राधे राधे को साथ, सेवामा हाम्रो हात"</p>
+</header>
+
+<nav>
+    <a href="#about">हाम्रो बारे</a>
+    <a href="#committee">समिति</a>
+    <a href="#posts">अपडेट</a>
+    <a href="#payment">सहयोग</a>
+</nav>
+
+<div class="notice-bar">
+    📌 सूचना: आउँदो शनिबार हाम्रो समूहको मासिक बैठक बस्दैछ। सबैलाई उपस्थितिको लागि अनुरोध छ।
+</div>
+
+<div class="container">
+    
+    <div id="about" class="welcome-box">
+        <h2>नमस्ते साथीहरू, राधे राधे! 🙏</h2>
+        <p>हामी केही साथीहरू मिलेर एउटा सानो तर पवित्र प्रयास सुरु गर्दैछौँ। समाजमा रहेका असहाय र आवश्यक परेकाहरूलाई सानो भए पनि सहयोग पुगोस् भन्ने हाम्रो चाहना हो।</p>
+        
+        <h3>✨ हाम्रो योजना:</h3>
+        <ul>
+            <li><strong>मासिक योगदान:</strong> हामी हरेक महिना सानो रकम (आफ्नो गच्छे अनुसार) जम्मा गर्नेछौँ।</li>
+            <li><strong>समान सेवा:</strong> जम्मा भएको रकमबाट खाद्यान्न, लत्ताकपडा, वा स्टेशनरी सहयोग गर्नेछौँ।</li>
+            <li><strong>पारदर्शिता:</strong> हरेक रुपैयाँको हिसाब-किताब ग्रुपमा राखिनेछ।</li>
+        </ul>
+        <p>भगवान श्री राधा-कृष्णको कृपाले कसैको अनुहारमा मुस्कान ल्याउन सकिन्छ भने त्यो नै हाम्रो सबैभन्दा ठूलो सफलता हुनेछ।</p>
+    </div>
+
+    <div id="posts" class="section">
+        <h2>📰 हालैका पोस्टहरू (Updates)</h2>
+        <div class="post-box">
+            <h4>पहिलो पाइला - वृद्धश्रम सहयोग</h4>
+            <p>आज मिति २०८२/११/०१ गते हामीले स्थानीय वृद्धश्रममा फलफूल वितरण गर्यौं।</p>
+            <p><small>Posted on: Feb 13, 2026</small></p>
+        </div>
+    </div>
+
+    <div id="committee" class="section">
+        <h2>👥 कार्यकारी समिति (Organizing Team)</h2>
+        <div class="committee-grid">
+            <div class="card">
+                <h3>अध्यक्ष</h3>
+                <p>[नाम यहाँ लेख्नुहोस्]</p>
+            </div>
+            <div class="card">
+                <h3>सचिव</h3>
+                <p>[नाम यहाँ लेख्नुहोस्]</p>
+            </div>
+            <div class="card">
+                <h3>सदस्य</h3>
+                <p>सबै सहयोगी साथीहरू</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="payment" class="scanner-section">
+        <h2>💰 आर्थिक पारदर्शिता र सहयोग</h2>
+        <p>हाम्रो अभियानमा जोडिन वा सहयोग गर्न तलको क्युआर (QR) स्क्यान गर्नुहोला:</p>
+        <div class="qr-code">
+            [QR Code Image Here]
+        </div>
+        <p><strong>सम्पर्क:</strong> ९८XXXXXXXX | email@gmail.com</p>
+        <p><a href="#" style="color: var(--primary-color);">मासिक योगदानको लिस्ट हेर्न यहाँ क्लिक गर्नुहोस्</a></p>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>© २०२६ राधे राधे सेवा परिवार | "सेवा नै धर्म हो"</p>
+    <p>राधे राधे! 🌸</p>
+</div>
+
+</body>
+</html>
